@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,700">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </head>
+ 
+  <body class="text-center">
+    <img src="Logo.png" alt="logo da Cobli">
+    <form class="form-signin">
+      <input id="inputEmail" class="form-control" placeholder="Insira seu e-mail" required="" autofocus="" type="email">
+      <p></p>
+      <p></p>
+      <input id="inputPassword" class="form-control" placeholder="Insira sua senha" required="" type="password">
+      <p> </p>
+      <button class="MuiButtonBase-root MuiButton-root MuiButton-text css-1w0mhvk" tabindex="0" type="submit" name="login">
+        <span class="MuiButton-label">Entrar</span>
+      </button>
+    </form>
+  </body>
+</html>
+
+<style>
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #18182e;
+  color: white;
+  font-family: "Rubik";
+  min-height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 430px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+img {
+    max-width:270px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    center: 100px;
+    top: 250px;
+}
+
+button {
+    font: "Roboto";
+    height: 40px;
+    min-width: 402px;
+    color: white;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 20px;
+    line-height: 1.21;
+    border-radius: 5px;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    border: none;
+    white-space: nowrap;
+    background-color: rgb(23, 116, 240);
+    margin-top: 20px;
+    
+}
+
+</style>
